@@ -92,4 +92,5 @@ if [ -e /etc/profile.d/vte.sh ]; then
     . /etc/profile.d/vte.sh
 fi
 
+alias config='/usr/bin/git --git-dir=/home/$USER/.cfg/ --work-tree=/home/$USER'
 #chuck
